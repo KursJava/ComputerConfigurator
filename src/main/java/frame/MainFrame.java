@@ -32,7 +32,7 @@ public class MainFrame extends JFrame {
     private void createFrame() throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
 
         setSize(600, 580);
-        setTitle("Computer Configurator");
+        setTitle("Zmieniłem Tytuł ramk");
         UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
         SwingUtilities.updateComponentTreeUI(this);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
